@@ -1,4 +1,6 @@
 Makefile
+/[Tt]emp/
+/[Tt]emp*/
 
 [Bb]uild
 /[Bb]uilds/

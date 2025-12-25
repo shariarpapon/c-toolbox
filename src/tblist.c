@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stddef.h>
 
-#include <ctoolbox/tblist.h>
-#include <ctoolbox/tbdefines.h>
+#include <tblist.h>
+#include <tbdefines.h>
 
 tblist* tblist_create(size_t capacity)
 {
