@@ -7,7 +7,7 @@ typedef struct List
 {
     size_t capacity;
     size_t count;
-    void** elms;
+    void** elements;
 } tblist;
 
 
@@ -15,6 +15,7 @@ tblist* tblist_create(size_t capacity);
 
 void* tblist_get(tblist*  list, size_t index); 
 void tblist_increase_capacity(tblist* list, size_t newCapacity);
+void tblist_dispose(tblist* list);
 
 _bool tblist_append(tblist* list, void* data);
 _bool tblist_remove(tblist* list, void* data);
