@@ -1,3 +1,8 @@
 Makefile
+
+[Bb]uild
+/[Bb]uilds/
+
+[Tt]est
 /[Tt]est/
 /[Tt]ests/
