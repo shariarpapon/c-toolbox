@@ -10,7 +10,7 @@ typedef struct List
 } vec;
 
 
-vec* vec_create(size_t capacity);
+vec* cbx_pvec.create(size_t capacity);
 
 void vec_increase_capacity(vec* vec_ptr, size_t new_capacity);
 void vec_dispose(vec* vec_ptr);
